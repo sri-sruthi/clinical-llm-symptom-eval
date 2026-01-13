@@ -13,7 +13,7 @@ This project evaluates open-source large language models for clinical symptom id
 The Synthea simulator generated over 21,000 encounters and 13,000 condition records. From this raw synthetic EHR data, a curated subset of encounters was transformed into short clinical narratives to serve as a controlled baseline dataset.
 
 ## 2. NBME Clinical Patient Notes
-- Source: Kaggle (USMLE Step 2 CS)
+- Source: Kaggle (USMLE Step 2 CS) (https://www.kaggle.com/competitions/nbme-score-clinical-patient-notes/data)
 - Type: Standardized exam-style clinical notes
 - Usage: Primary evaluation dataset
 - License: Research and educational use
