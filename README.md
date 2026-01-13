@@ -19,7 +19,7 @@ The Synthea simulator generated over 21,000 encounters and 13,000 condition reco
 - License: Research and educational use
 
 ## 3. MTSamples (Medical Transcriptions)
-- Source: Kaggle (CC0)
+- Source: Kaggle (CC0) (https://www.kaggle.com/datasets/tboyle10/medicaltranscriptions)
 - Type: Medical transcription text
 - Usage: Robustness and stress-test dataset
 - License: CC0 (Public Domain)
