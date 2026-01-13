@@ -1,1 +1,5 @@
+# NBME data (competition-restricted)
 data/nbme/
+
+# OS junk
+.DS_Store
