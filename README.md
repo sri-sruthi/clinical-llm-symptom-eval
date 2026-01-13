@@ -23,3 +23,5 @@ The Synthea simulator generated over 21,000 encounters and 13,000 condition reco
 - Type: Medical transcription text
 - Usage: Robustness and stress-test dataset
 - License: CC0 (Public Domain)
+
+MTSamples was obtained from Kaggle and is licensed under CC0 (public domain).
