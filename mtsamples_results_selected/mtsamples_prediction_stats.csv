@@ -1,0 +1,5 @@
+model,total_predictions,predictions_with_errors,clean_predictions,error_rate_%
+mistral,8881,8793,88,99.00912059452764
+gemma,8955,8830,125,98.60413176996092
+biomistral,6374,5699,675,89.41010354565422
+qwen,18801,18642,159,99.15430030317536

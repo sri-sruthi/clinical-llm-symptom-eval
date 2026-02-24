@@ -1,0 +1,17 @@
+model,dataset,matching,avg_duplicate_rate
+mistral,NBME,Strict Token,0.0
+mistral,NBME,Lenient Token-Containment,0.0
+gemma,NBME,Strict Token,0.001357128982128982
+gemma,NBME,Lenient Token-Containment,0.001357128982128982
+qwen,NBME,Strict Token,0.0003333333333333334
+qwen,NBME,Lenient Token-Containment,0.0003333333333333334
+biomistral,NBME,Strict Token,0.0
+biomistral,NBME,Lenient Token-Containment,0.0
+mistral,Synthea,Strict Token,0.0
+mistral,Synthea,Lenient Token-Containment,0.0
+gemma,Synthea,Strict Token,0.0
+gemma,Synthea,Lenient Token-Containment,0.0
+qwen,Synthea,Strict Token,0.0
+qwen,Synthea,Lenient Token-Containment,0.0
+biomistral,Synthea,Strict Token,0.0
+biomistral,Synthea,Lenient Token-Containment,0.0

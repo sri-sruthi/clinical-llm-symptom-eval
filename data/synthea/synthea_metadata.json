@@ -1,0 +1,22 @@
+{
+  "generation_date": "2026-02-04 04:23:03",
+  "total_notes": 500,
+  "conditions": {
+    "Community-Acquired Pneumonia": 63,
+    "Acute Sinusitis": 63,
+    "Acute Bronchitis": 63,
+    "Viral Upper Respiratory Infection": 63,
+    "Asthma Exacerbation": 62,
+    "Gastroenteritis": 62,
+    "Essential Hypertension": 62,
+    "Migraine": 62
+  },
+  "mean_symptoms_per_note": 3.398,
+  "mean_note_length": 566.592,
+  "unique_symptoms": 17,
+  "note_types": [
+    "SOAP",
+    "Progress",
+    "H&P"
+  ]
+}

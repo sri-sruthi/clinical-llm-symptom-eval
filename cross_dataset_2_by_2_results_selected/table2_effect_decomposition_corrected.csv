@@ -1,0 +1,5 @@
+Model,NBME Strict,NBME Lenient,Synthea Strict,Synthea Lenient,NBME Eval Effect,Synthea Eval Effect,Strict Dataset Effect,Lenient Dataset Effect,Interaction Effect
+Mistral,0.107,0.129,0.087,0.262,0.022,0.174,-0.019,0.133,0.153
+Gemma,0.070,0.088,0.123,0.153,0.018,0.030,0.053,0.065,0.012
+Qwen,0.089,0.110,0.097,0.141,0.021,0.044,0.008,0.031,0.023
+Biomistral,0.008,0.029,0.017,0.278,0.021,0.261,0.008,0.248,0.240

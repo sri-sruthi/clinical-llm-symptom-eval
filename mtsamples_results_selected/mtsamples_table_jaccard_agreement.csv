@@ -1,0 +1,7 @@
+Model 1,Model 2,Mean Jaccard,Median Jaccard
+mistral,gemma,0.063,0.0
+mistral,biomistral,0.072,0.0
+mistral,qwen,0.082,0.0
+gemma,biomistral,0.105,0.0
+gemma,qwen,0.163,0.0
+biomistral,qwen,0.244,0.0

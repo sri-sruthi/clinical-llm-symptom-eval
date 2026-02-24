@@ -1,0 +1,60 @@
+{
+  "evaluation_method": {
+    "matching": "Token overlap (\u226560%)",
+    "gold_standard": "Symptom-only NBME features",
+    "post_processing": "Applied",
+    "statistical_test": "Wilcoxon signed-rank"
+  },
+  "models": {
+    "mistral": {
+      "precision": 0.1820739232989233,
+      "recall": 0.1630151515151515,
+      "f1": 0.16393637979667391,
+      "total_tp": 941,
+      "total_fp": 4595,
+      "total_fn": 5059
+    },
+    "gemma": {
+      "precision": 0.08068387243561391,
+      "recall": 0.1227668831168831,
+      "f1": 0.09430226713191982,
+      "total_tp": 730,
+      "total_fp": 8068,
+      "total_fn": 5270
+    },
+    "qwen": {
+      "precision": 0.15527085414585412,
+      "recall": 0.1291475108225108,
+      "f1": 0.13468112325112258,
+      "total_tp": 753,
+      "total_fp": 3613,
+      "total_fn": 5247
+    },
+    "biomistral": {
+      "precision": 0.055,
+      "recall": 0.010600324675324674,
+      "f1": 0.01742222222222222,
+      "total_tp": 56,
+      "total_fp": 699,
+      "total_fn": 5944
+    }
+  },
+  "comparison": {
+    "best_model": "mistral",
+    "best_f1": 0.1639363797966739,
+    "f1_range": [
+      0.0174222222222222,
+      0.1639363797966739
+    ]
+  },
+  "statistics": {
+    "total_errors": 35077,
+    "fp_rate": 0.4352139578641275,
+    "significant_differences": 6
+  },
+  "warnings": {
+    "literature_comparison": "Not directly comparable due to task/setup differences",
+    "manual_validation": "Feature classification requires manual validation",
+    "post_processing": "Results use post-processed predictions"
+  }
+}

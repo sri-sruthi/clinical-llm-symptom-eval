@@ -1,0 +1,9 @@
+Source,F1,Task,Supervision,Type
+McMurry et al. (LLaMA-2-70B),0.817,Sentence-level,Supervised,Literature (not comparable)
+McMurry et al. (Mixtral 8x7B),0.835,Sentence-level,Supervised,Literature (not comparable)
+Lybarger et al. (BioBERT),0.8,Sentence-level,Supervised,Literature (not comparable)
+Humbert-Droz et al.,0.83,Sentence-level,Supervised,Literature (not comparable)
+Our work (mistral),0.16393637979667391,Document-level,Zero-shot,Our work
+Our work (gemma),0.09430226713191982,Document-level,Zero-shot,Our work
+Our work (qwen),0.13468112325112258,Document-level,Zero-shot,Our work
+Our work (biomistral),0.01742222222222222,Document-level,Zero-shot,Our work

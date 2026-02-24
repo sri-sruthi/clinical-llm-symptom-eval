@@ -1,0 +1,6 @@
+Setting,Value,Justification
+Matching Method,Token overlap (≥60% threshold),Prevents over-matching from substrings
+Gold Standard,Symptom-only NBME features,Aligned with symptom extraction task
+Post-processing,"Instruction leakage removal, normalization",Clean model outputs for fair evaluation
+Statistical Test,Wilcoxon signed-rank test,Appropriate for bounded F1 scores
+Predictions Used,Post-processed (not raw),"Remove artifacts, deduplicate"

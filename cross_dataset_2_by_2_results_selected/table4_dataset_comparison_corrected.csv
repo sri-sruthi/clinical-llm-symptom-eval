@@ -1,0 +1,5 @@
+Model,NBME F1,NBME Precision,NBME Recall,Synthea F1,Synthea Precision,Synthea Recall,F1 Difference,Relative Change
+Mistral,0.107,0.176,0.077,0.087,0.087,0.088,-0.019,-18.1%
+Gemma,0.070,0.085,0.059,0.123,0.095,0.174,+0.053,+76.0%
+Qwen,0.089,0.174,0.060,0.097,0.073,0.145,+0.008,+9.0%
+Biomistral,0.008,0.075,0.004,0.017,0.028,0.012,+0.008,N/A (baseline<0.05)

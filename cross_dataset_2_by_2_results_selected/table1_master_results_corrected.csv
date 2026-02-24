@@ -1,0 +1,17 @@
+Model,Dataset,Matching,Precision,Recall,F1,TP,FP,FN
+Mistral,NBME,Strict Token,0.176,0.077,0.107,974,4562,11726
+Mistral,NBME,Lenient Token-Containment,0.212,0.092,0.129,1172,4364,11528
+Gemma,NBME,Strict Token,0.085,0.059,0.070,750,8062,11950
+Gemma,NBME,Lenient Token-Containment,0.107,0.074,0.088,946,7866,11754
+Qwen,NBME,Strict Token,0.174,0.060,0.089,760,3607,11940
+Qwen,NBME,Lenient Token-Containment,0.215,0.074,0.110,940,3427,11760
+Biomistral,NBME,Strict Token,0.075,0.004,0.008,57,698,12643
+Biomistral,NBME,Lenient Token-Containment,0.260,0.015,0.029,196,559,12504
+Mistral,Synthea,Strict Token,0.087,0.088,0.087,150,1582,1549
+Mistral,Synthea,Lenient Token-Containment,0.259,0.264,0.262,449,1283,1250
+Gemma,Synthea,Strict Token,0.095,0.174,0.123,296,2829,1403
+Gemma,Synthea,Lenient Token-Containment,0.118,0.217,0.153,368,2757,1331
+Qwen,Synthea,Strict Token,0.073,0.145,0.097,246,3125,1453
+Qwen,Synthea,Lenient Token-Containment,0.106,0.211,0.141,358,3013,1341
+Biomistral,Synthea,Strict Token,0.028,0.012,0.017,20,702,1679
+Biomistral,Synthea,Lenient Token-Containment,0.465,0.198,0.278,336,386,1363

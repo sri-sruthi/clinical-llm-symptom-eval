@@ -1,0 +1,5 @@
+Model,FP Count,FN Count,Total,FP %,FN %
+biomistral,1083,612,1695,36.1,63.9
+gemma,1253,4510,5763,78.3,21.7
+mistral,1123,1221,2344,52.1,47.9
+qwen,1278,5050,6328,79.8,20.2

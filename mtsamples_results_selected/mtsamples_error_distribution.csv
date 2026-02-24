@@ -1,0 +1,5 @@
+model,diagnosis_leakage,instruction_leakage,negation_error,over_extraction,unsupported_extraction
+biomistral,73,1746,0,3803,3941
+gemma,376,1084,17,4342,7618
+mistral,251,484,13,5344,8105
+qwen,14,3560,9,7677,15030

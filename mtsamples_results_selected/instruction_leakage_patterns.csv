@@ -1,0 +1,64 @@
+pattern,type
+extract only symptoms and clinical findings,instruction_leakage
+procedures,instruction_leakage
+from,instruction_leakage
+task,instruction_leakage
+"do not include negated symptoms (e.g., ""denies chest pain"")",instruction_leakage
+none,instruction_leakage
+system,instruction_leakage
+history,instruction_leakage
+include,instruction_leakage
+task: extract only patient-reported symptoms or clinician-observed findings from the clinical note.,instruction_leakage
+<|im_end|>,instruction_leakage
+labs,instruction_leakage
+output,instruction_leakage
+note,instruction_leakage
+negated,instruction_leakage
+hyphen,instruction_leakage
+extracted symptoms,instruction_leakage
+[inst],instruction_leakage
+medications,instruction_leakage
+denies,instruction_leakage
+found,instruction_leakage
+"output format: one symptom per line, each starting with a hyphen (-)",instruction_leakage
+<start_of_turn>,instruction_leakage
+information,instruction_leakage
+extract,instruction_leakage
+extraction,instruction_leakage
+clinician,instruction_leakage
+mentioned,instruction_leakage
+{note},instruction_leakage
+diagnoses,instruction_leakage
+demographics,instruction_leakage
+symptoms,instruction_leakage
+only,instruction_leakage
+system:,instruction_leakage
+each,instruction_leakage
+assistant:,instruction_leakage
+[/inst],instruction_leakage
+you are a clinical information extraction system.,instruction_leakage
+rules,instruction_leakage
+family,instruction_leakage
+reported,instruction_leakage
+exactly,instruction_leakage
+format,instruction_leakage
+"do not extract: diagnoses, medications, labs, procedures, demographics, family history",instruction_leakage
+"if no symptoms found, output exactly: none",instruction_leakage
+extracted,instruction_leakage
+symptom,instruction_leakage
+clinical note,instruction_leakage
+findings,instruction_leakage
+pain,instruction_leakage
+explicitly,instruction_leakage
+line,instruction_leakage
+starting,instruction_leakage
+<|im_start|>,instruction_leakage
+do not infer symptoms not explicitly mentioned,instruction_leakage
+clinical,instruction_leakage
+infer,instruction_leakage
+user:,instruction_leakage
+chest,instruction_leakage
+<end_of_turn>,instruction_leakage
+observed,instruction_leakage
+patient,instruction_leakage
+with,instruction_leakage

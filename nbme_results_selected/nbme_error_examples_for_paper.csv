@@ -1,0 +1,21 @@
+model,pn_num,error_type,text,gold_context,pred_context,category
+mistral,95145,false_positive,green colored vomit,"['Nausea', 'Photophobia', 'Vomiting', 'Neck-pain', 'Global-headache-OR-diffuse-headache', 'Subjectiv",,boundary_mismatch
+gemma,21686,false_positive,irregular periods,"['Irregular-flow-OR-Irregular-frequency-OR-Irregular-intervals', 'Heavy-sweating', 'Sleep-disturbanc",,boundary_mismatch
+mistral,82080,false_positive,grief,"['Hallucinations-after-taking-Ambien', 'Diminished-energy-OR-feeling-drained', 'Early-wakening', 'In",,other
+gemma,22083,false_positive,endometrictomy,"['Irregular-flow-OR-Irregular-frequency-OR-Irregular-intervals', 'Heavy-sweating', 'Sleep-disturbanc",,other
+qwen,80066,false_negative,unsuccessful napping,,"['insomnia', 'tosses and turns while sleeping', 'wakes up early', 'sleeps 4-5 hours day', 'feels dra",other
+biomistral,42580,false_negative,decreased appetite,,['none'],other
+mistral,83185,false_positive,grief implied from the onset of insomnia associated with sons death,"['Hallucinations-after-taking-Ambien', 'Diminished-energy-OR-feeling-drained', 'Early-wakening', 'In",,complex_phrasing
+mistral,970,false_positive,shortness of breath associated with the most recent episode,"['Shortness-of-breath', 'heart-pounding-OR-heart-racing', 'Lightheaded', 'Chest-pressure']",,complex_phrasing
+gemma,52923,false_negative,feels hot or feels clammy,,"['use only the clinical note provided', 'do not include negated symptoms', 'do not infer or assume s",complex_phrasing
+gemma,92464,false_negative,viral symptoms or rhinorrhea or scratchy throat,,"['use only the clinical note provided', 'do not include negated symptoms', 'do not infer or assume s",complex_phrasing
+gemma,21325,false_positive,does not smoke and uses alcohol socially no other drugs,"['Irregular-flow-OR-Irregular-frequency-OR-Irregular-intervals', 'Heavy-sweating', 'Sleep-disturbanc",,negation_error
+qwen,1652,false_positive,one episode recently included shortness of breath while playing basketball patient had difficulty catching his breath which resolved on its ownhe denies any syncope but complains of some dizziness during a recent episode during has not taken anything for his symptoms nothing makes them better or worse symptoms usually resolve on their own,"['Shortness-of-breath', 'heart-pounding-OR-heart-racing', 'Lightheaded', 'Chest-pressure']",,negation_error
+mistral,94592,false_positive,severe headache,"['Nausea', 'Photophobia', 'Vomiting', 'Neck-pain', 'Global-headache-OR-diffuse-headache', 'Subjectiv",,generic_term
+mistral,92596,false_positive,mild fever,"['Nausea', 'Photophobia', 'Vomiting', 'Neck-pain', 'Global-headache-OR-diffuse-headache', 'Subjectiv",,generic_term
+mistral,74009,false_positive,history of infertility,"['Fatigue', 'heavy-periods-OR-irregular-periods', 'Weight-Gain']",,annotation_issue
+mistral,10067,false_positive,history of recurrent abdominal pain 3 4x in the past 6 months,"['Right-sided-LQ-abdominal-pain-OR-Right-lower-quadrant-abdominal-pain', 'Weight-loss', 'Diminished-",,annotation_issue
+gemma,39338,false_positive,pain,"['Nausea', 'Awakens-at-night', 'Post-prandial-bloating-OR-fullness-with-meals', 'burning-OR-gnawing-",,over_generalization
+gemma,90911,false_positive,fatigue,"['Nausea', 'Photophobia', 'Vomiting', 'Neck-pain', 'Global-headache-OR-diffuse-headache', 'Subjectiv",,over_generalization
+mistral,71649,false_negative,fatigue,,"['heavy menstrual periods', 'irregular menstrual periods', 'menstrual periods lasting a day', 'frequ",over_generalization
+biomistral,73155,false_negative,fatigue,,['oligomenorrhea'],over_generalization

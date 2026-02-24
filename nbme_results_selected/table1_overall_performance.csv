@@ -1,0 +1,5 @@
+Model,Precision,Recall,F1,Mean Symptoms,Empty %
+Mistral,0.182,0.163,0.164,5.5,0.0%
+Gemma,0.081,0.123,0.094,8.8,0.0%
+Qwen,0.155,0.129,0.135,4.5,14.7%
+Biomistral,0.055,0.011,0.017,1.0,25.3%

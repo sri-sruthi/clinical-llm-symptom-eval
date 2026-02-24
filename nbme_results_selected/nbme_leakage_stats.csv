@@ -1,0 +1,5 @@
+Model,Notes with Leakage,Total Notes,Percentage
+mistral,9,1000,0.8999999999999999
+gemma,1000,1000,100.0
+qwen,0,1000,0.0
+biomistral,0,1000,0.0

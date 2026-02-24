@@ -1,0 +1,32 @@
+{
+  "evaluation_method_impact": {
+    "nbme_avg": 0.020423119526390702,
+    "synthea_avg": 0.12734364201354204,
+    "largest_nbme": {
+      "model": "mistral",
+      "effect": 0.021715288440447456
+    },
+    "largest_synthea": {
+      "model": "biomistral",
+      "effect": 0.26104915324246175
+    }
+  },
+  "dataset_structural_effect": {
+    "strict_avg": 0.012409418872388618,
+    "lenient_avg": 0.11932994135953995,
+    "best_nbme": {
+      "model": "mistral",
+      "f1": 0.10682167141917087
+    },
+    "best_synthea": {
+      "model": "gemma",
+      "f1": 0.12271973466003316
+    }
+  },
+  "interaction_effects": {
+    "largest": {
+      "model": "biomistral",
+      "effect": 0.24038768910273672
+    }
+  }
+}
